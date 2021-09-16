@@ -1,0 +1,76 @@
+#ui-datepicker-div {
+  background: rgba(0, 0, 0, 0.7) !important;
+  border:0;
+}
+#ui-datepicker-div .ui-widget-header {
+  background: rgba(0, 0, 0, 0.2);
+  border: 0;
+  border-bottom: 1px solid #686868;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #f8f8f8;
+  padding: 1px 0;
+}
+#ui-datepicker-div.ui-widget-content {
+  color:#f8f8f8 !important;
+}
+#ui-datepicker-div .ui-state-default, #ui-datepicker-div .ui-widget-content .ui-state-default, #ui-datepicker-div .ui-widget-header .ui-state-default {
+  background: none;
+  border:0;
+  color:#007da7;
+  text-align: center;
+}
+#ui-datepicker-div .ui-state-hover, #ui-datepicker-div.ui-widget-content .ui-state-hover, #ui-datepicker-div .ui-widget-header .ui-state-hover, #ui-datepicker-div .ui-state-focus, #ui-datepicker-div.ui-widget-content .ui-state-focus, #ui-datepicker-div .ui-widget-header .ui-state-focus,
+#ui-datepicker-div .ui-state-highlight, #ui-datepicker-div.ui-widget-content .ui-state-highlight, #ui-datepicker-div .ui-widget-header .ui-state-highlight {
+  background: rgba(0, 0, 0, 0.3) !important;
+  border:0;
+  top:2px;
+}
+#ui-datepicker-div .ui-datepicker-group {
+  border-left: 1px solid #686868;
+}
+#ui-datepicker-div .ui-datepicker-group:first-child {
+  border-left:0;
+}
+#ui-datepicker-div .ui-datepicker-buttonpane {
+  margin: 0;
+}
+#ui-datepicker-div .ui-datepicker-group table {
+  margin:0 auto !important;
+}
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px !important;
+  cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-next {
+  right: 2px !important;
+  cursor: pointer;
+}
+.ui-icon-circle-triangle-w {
+  background: url(../img/ui-left.png) 0 0 no-repeat !important;
+}
+.ui-icon-circle-triangle-e {
+  background: url(../img/ui-right.png) 0 0 no-repeat !important;
+}
+.ui-icon-circle-arrow-s {
+  background: url(../img/ui-accordion-down.png) 0 0 no-repeat !important;
+}
+.ui-icon-circle-arrow-e {
+  background: url(../img/ui-accordion-right.png) 0 0 no-repeat !important;
+}
+#ui-datepicker-div .ui-slider-horizontal {
+  background: rgba(0, 0, 0, 0.5);
+  height: 4px;
+  border: 0;
+}
+#ui-datepicker-div .ui-slider-horizontal .ui-slider-handle {
+  background: #D8D8D8 !important;
+  border: 1px solid #f8f8f8;
+  height: 8px;
+  width: 8px;
+  top:-2px;
+  margin-left: -4px;
+  outline: none;
+  cursor: pointer;
+}
