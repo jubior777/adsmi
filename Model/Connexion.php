@@ -10,10 +10,10 @@ class conexion {
 
     public function __construct()
     {
-        $user = 'epiz_29731168';
-        $password = 'Jireth7777J$';
-        $server = 'sql111.epizy.com';
-        $database = 'epiz_29731168_adsmimed';
+        $user = 'root';
+        $password = '';
+        $server = 'localhost';
+        $database = 'adsmimed';
         $this->con = new mysqli($server, $user, $password, $database);
     }
 
